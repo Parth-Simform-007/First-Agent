@@ -22,9 +22,11 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: "Internal server error" });
 });
 
-// Start the server — open the village gates
-app.listen(PORT, () => {
-  console.log(`Shinobi Technique Tracker running on port ${PORT}`);
-});
+// Start the server — open the village gates (only when run directly)
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Shinobi Technique Tracker running on port ${PORT}`);
+  });
+}
 
 module.exports = app;
