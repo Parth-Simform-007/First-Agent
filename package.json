@@ -1,0 +1,25 @@
+{
+  "name": "first-agent",
+  "version": "1.0.0",
+  "description": "I'm going to create first copilot Agent (Naruto Mode ON---)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parth-Simform-007/First-Agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Parth-Simform-007/First-Agent/issues"
+  },
+  "homepage": "https://github.com/Parth-Simform-007/First-Agent#readme",
+  "dependencies": {
+    "express": "^4.22.2"
+  }
+}
