@@ -13,7 +13,7 @@ const addTechnique = (req, res) => {
 
   if (typeof rating !== "number" || isNaN(rating)) {
     return res.status(400).json({
-      error: "All fields are required: name, rating, creator, dateFound",
+      error: "Rating must be a valid number",
     });
   }
 
